@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({
     extended:true
 }))
 
-mongoose.connect('mongodb://localhost:27017/mydb',{
+mongoose.connect('mongodb+srv://Bhuwan:fake2fake@cluster0.jnvsidw.mongodb.net/sign_up',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
